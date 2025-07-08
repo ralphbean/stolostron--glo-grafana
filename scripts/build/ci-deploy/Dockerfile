@@ -6,7 +6,7 @@ RUN cd $GOPATH/src/github.com/aptly-dev/aptly && \
     git reset --hard a64807efdaf5e380bfa878c71bc88eae10d62be1 && \
     make install
 
-FROM circleci/python:2.7-stretch-node
+FROM circleci/python:3.7-stretch-node
 
 USER root
 
