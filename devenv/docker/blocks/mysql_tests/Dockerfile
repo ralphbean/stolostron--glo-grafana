@@ -1,3 +1,3 @@
-FROM mysql:5.6
+FROM mysql:9.4
 ADD setup.sql /docker-entrypoint-initdb.d
 CMD ["mysqld"]
