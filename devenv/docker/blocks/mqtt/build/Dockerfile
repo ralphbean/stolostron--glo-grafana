@@ -1,4 +1,4 @@
-FROM emqx/nanomq:0.21.11-full
+FROM emqx/nanomq:0.24.2-full
 
 RUN apt-get update && apt-get install -y \
   openssl \
